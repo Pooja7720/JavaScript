@@ -1,0 +1,54 @@
+
+.headingPart{
+    background-color: darkslategrey;
+    text-align: center;
+    color: whitesmoke;
+    border-radius: 20px;
+}
+.options{
+    text-align: center;
+}
+.stone, .paper,.scissor{
+    display: inline-block;
+    margin: 20px;
+}
+.stone img, .paper img, .scissor img{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.stone img:hover, .paper img:hover, .scissor img:hover{
+    transform: scale(0.9,0.9);
+    cursor: pointer;
+    
+    border-color: slategrey !important;
+}
+
+/* BACKGROUND CHANGE*/
+.bg-dark{
+    background-image: url("images/StonePaperScissor-bg-dark.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-light{
+    background-image: url("images/StonePaperScissor-bg-light.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.score{
+    text-align: center;
+}
+.text{
+    text-align: center;
+    background-color:chocolate;
+    width:200px;
+    padding:10px 20px;
+    border-radius: 20px;
+    align-items: center;
+    margin:auto;
+}
+.body{
+    text-align: center;
+}
